@@ -1,0 +1,19 @@
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 10 px;
+}
+
+td {
+    border: 1px solid black;
+    width: 34mm;
+    height: 14mm;
+}
+
+.number {
+    width: 14mm;
+    height: 14mm;
+    text-align: center;
+}

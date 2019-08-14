@@ -1,0 +1,12 @@
+08/13/2019 09:35:10 - INFO - open_list():19 - poprawnie otwarty plik txt
+08/13/2019 09:35:10 - INFO - clean_list():27 - z listy 29-elementowej  po wyczyszczeniu zostało 27
+08/13/2019 09:35:10 - DEBUG - create_pdf():54 - Zaczynamy 
+08/13/2019 09:36:01 - INFO - open_list():19 - poprawnie otwarty plik txt
+08/13/2019 09:36:01 - INFO - clean_list():27 - z listy 29-elementowej  po wyczyszczeniu zostało 27
+08/13/2019 09:36:01 - DEBUG - create_pdf():54 - Zaczynamy 
+08/13/2019 09:36:01 - WARNING - create_pdf():58 - błąd pliku pacjenci.txt : {e}
+08/13/2019 09:36:01 - WARNING - validation_error():89 - Ignored `font-size: 10 px` at 6:5, invalid value.
+08/13/2019 09:38:43 - INFO - open_list():19 - poprawnie otwarty plik txt
+08/13/2019 09:38:43 - INFO - clean_list():27 - z listy 29-elementowej  po wyczyszczeniu zostało 27
+08/13/2019 09:38:43 - DEBUG - create_pdf():54 - Zaczynamy 
+08/13/2019 09:38:43 - WARNING - validation_error():89 - Ignored `font-size: 10 px` at 6:5, invalid value.
