@@ -2,7 +2,7 @@ import fileinput
 from shutil import copyfile
 from weasyprint import HTML
 import os
-
+import logging
 def open_list():
     """Opens txt file and make a clean list of patients"""
     with open('pacjenci.txt') as rlist:
@@ -41,4 +41,10 @@ def generuj_wydruk():
     HTML(write_to_file()).write_pdf('pacjenci.pdf')
 
 if __name__ == "__main__":
+    try:
+        os.mkdir('logs')
+    except FileExistsError:
+        pass
+    finally:
+        logging.basicConfig(filename='logs/log.log',level=logging.DEBUG, filemode='w', format='%(asctime)s - %(levelname)s():%(lineno)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S')
     generuj_wydruk()
